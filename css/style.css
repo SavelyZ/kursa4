@@ -1,0 +1,105 @@
+/* Обнуление */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #252b42;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+
+/*****************base**********************************/
+
+body {
+    background-color: #214c84;
+    background-blend-mode: overlay;
+    background-image: url(../../assets/img/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner {
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px double #ffff;
+    background-color: #FFFF;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    max-width: auto;
+    margin: 10px;
+}
+
+
+/*****************header**********************************/
+
+.header__conteiner {
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+
+/*****************main**********************************/
+
+.main__conteiner {
+    max-height: 1080px;
+    box-sizing: content-box;
+}
+
+.main__body {
+    max-height: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 300px;
+}
+
+
+/*****************footer**********************************/
+
+.footer__conteiner {
+    max-height: 1080px;
+    box-sizing: content-box;
+}
+
+.footer__body {
+    max-height: 350px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
